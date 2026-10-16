@@ -202,15 +202,15 @@ window.openBookPreview = function(bookNumber) {
   const books = {
     1: {
       img: 'assets/books/book-1.jpg',
-      title: 'A Love Letter to the Adult Raised in Foster Care by Dr. Dina Lundy'
+      title: 'So You’re on Your Own by Dr. Dina Lundy'
     },
     2: {
       img: 'assets/books/book-2.jpg',
-      title: 'A Text for Your Multicultural Psychology Class by Dr. Dina Lundy'
+      title: 'Broadening our Multicultural lens by Dr. Dina Lundy'
     },
     3: {
       img: 'assets/books/book-3.jpg',
-      title: 'Cultural Connections: Understanding This Multilayered Diverse Population by Dr. Dina Lundy'
+      title: 'The Psychological Perspectives of Latinx and Chicano Populations by Dr. Dina Lundy'
     }
   };
 

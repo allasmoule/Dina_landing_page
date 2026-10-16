@@ -220,6 +220,12 @@ window.openBookPreview = function(bookNumber) {
   }
 };
 
+window.openCoursePreview = function() {
+  const courseImg = document.querySelector('.course-cover-img');
+  const src = (courseImg && courseImg.currentSrc) ? courseImg.currentSrc : 'assets/courses/calm-parents-blueprint-clean.jpg';
+  openLightbox(src, "The Calm Parent's Blueprint: Understanding Your Child's Meltdowns by Dr. Dina Lundy");
+};
+
 /* ==========================================================================
    7. Syllabus Request Modal Controller
    ========================================================================== */
@@ -299,7 +305,16 @@ window.openLightbox = function(imageSrc, captionText) {
   const lightboxImg = document.getElementById('lightbox-img');
   const lightboxCap = document.getElementById('lightbox-caption');
 
-  if (lightboxImg) lightboxImg.src = imageSrc;
+  let resolvedSrc = imageSrc;
+  if (typeof imageSrc === 'string') {
+    const filename = imageSrc.split('/').pop().split('?')[0];
+    const matchingImg = document.querySelector(`img[src*="${filename}"]`);
+    if (matchingImg && matchingImg.currentSrc) {
+      resolvedSrc = matchingImg.currentSrc;
+    }
+  }
+
+  if (lightboxImg) lightboxImg.src = resolvedSrc;
   if (lightboxCap) lightboxCap.textContent = captionText || 'High-Resolution Document Preview';
 
   openModal('lightbox-modal');

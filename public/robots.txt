@@ -1,0 +1,6 @@
+# robots.txt for https://dinalundy.com
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dinalundy.com/sitemap.xml

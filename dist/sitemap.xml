@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://dinalundy.com/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://dinalundy.com/assets/hero/hero-banner.png</image:loc>
+      <image:title>Dr. Dina Lundy, Ph.D. — Family Court Psychological Analyst &amp; Family Science Professor</image:title>
+      <image:caption>Official portrait banner of Dr. Dina Lundy</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dinalundy.com/assets/books/book-1.jpg</image:loc>
+      <image:title>So You’re on Your Own - Book Cover by Dr. Dina Lundy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dinalundy.com/assets/books/book-2.jpg</image:loc>
+      <image:title>Broadening Our Multicultural Lens - Book Cover by Dr. Dina Lundy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dinalundy.com/assets/books/book-3.jpg</image:loc>
+      <image:title>The Psychological Perspectives of Latinx and Chicano Populations - Book Cover by Dr. Dina Lundy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dinalundy.com/assets/courses/calm-parents-blueprint-clean.jpg</image:loc>
+      <image:title>The Calm Parent's Blueprint Course by Dr. Dina Lundy</image:title>
+    </image:image>
+  </url>
+</urlset>
